@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Anime News Diary — Automated Daily Anime Episode Release Notifications</title>
+<meta name="description" content="Automated system that tracks and announces new anime episode releases daily on Telegram. Get notified the moment an episode drops, with episode synopses and links to official social media." />
+<meta name="keywords" content="anime episode release notifications, anime release tracker, daily anime updates, automated anime notifications, anime telegram channel, new anime episode alert" />
+<meta name="robots" content="index, follow" />
+<meta name="author" content="Anime News Diary" />
+<link rel="canonical" href="https://AnimeNewsDiary.github.io/" />
+<meta name="language" content="English" />
+<meta http-equiv="content-language" content="en" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Anime News Diary — Automated Anime Episode Release Notifications" />
+<meta property="og:description" content="Automated system tracking daily anime episode releases, with synopses and official social links. Follow on Telegram." />
+<meta property="og:url" content="https://AnimeNewsDiary.github.io/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:site_name" content="Anime News Diary" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Anime News Diary — Automated Anime Episode Release Notifications" />
+<meta name="twitter:description" content="Automated daily anime episode release notifications on Telegram." />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Anime News Diary",
+  "applicationCategory": "Automation",
+  "operatingSystem": "Telegram",
+  "url": "https://t.me/animenewsdiary",
+  "description": "An automated system that publishes daily anime episode release notifications to a Telegram channel, including episode synopses and links to each anime's official social media."
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Where can I get daily anime episode release notifications?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Anime News Diary publishes automated anime episode release notifications on Telegram at t.me/animenewsdiary. New episodes are announced the same day they air, with no manual delay." }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I follow new anime episodes as soon as they release?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Join the Anime News Diary Telegram channel. An automated system detects new episode releases and posts a notification with a synopsis and official social media link as soon as it airs." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I check anime announcements without a Telegram account?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. The channel preview can be viewed directly in a browser at t.me/s/animenewsdiary, without installing Telegram or creating an account." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is following Anime News Diary free?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes, joining the channel is completely free with no subscription or sign-up required." }
+    },
+    {
+      "@type": "Question",
+      "name": "How often are anime episode notifications posted?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The system runs continuously and posts a notification every day a tracked anime releases a new episode." }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F2F4F7; --ink:#1F2430; --muted:#5A6072; --line:#DCE0E8;
+    --accent:#2F5FDA; --link-bg:#E4EAFB; --link-bg-hover:#D6DFF8;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family:'Roboto',sans-serif; font-weight:400;
+    line-height:1.65; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:0 24px;}
+  header{padding:72px 0 40px; border-bottom:1px solid var(--line);}
+  h1{
+    font-family:'Roboto',sans-serif; font-weight:700;
+    font-size:clamp(28px,5.5vw,42px); line-height:1.2; letter-spacing:-0.01em;
+    max-width:15ch; color:var(--ink);
+  }
+  .lede{color:var(--muted); font-size:17px; max-width:56ch; margin-top:20px;}
+  .links{margin-top:28px; display:flex; flex-direction:column; gap:12px;}
+  .links a{
+    display:inline-block; color:var(--accent); background:var(--link-bg);
+    font-size:19px; font-weight:700; text-decoration:none;
+    padding:14px 20px; border-radius:10px; word-break:break-all;
+  }
+  .links a:hover{background:var(--link-bg-hover);}
+  .link-note{color:var(--muted); font-size:14px; margin-top:2px;}
+  section{padding:40px 0; border-bottom:1px solid var(--line);}
+  h2{font-size:22px; font-weight:700; margin-bottom:14px; color:var(--ink);}
+  p{font-size:16px; color:var(--ink);}
+  .about p + p{margin-top:14px;}
+  .faq-item{padding:20px 0; border-top:1px solid var(--line);}
+  .faq-item:first-of-type{border-top:none;}
+  .faq-q{font-weight:700; font-size:17px; margin-bottom:6px;}
+  .faq-a{color:var(--muted); font-size:15px;}
+  footer{padding:40px 0 64px; text-align:center;}
+  footer .links{align-items:center; margin-top:0;}
+  footer p{color:var(--muted); font-size:13px; margin-top:18px;}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <h1>Automated anime episode release notifications</h1>
+    <p class="lede">Anime News Diary is an automated system that detects and publishes new anime episode releases every day — no manual posting, no delay. Each entry includes a short synopsis and a direct link to the anime's official social media.</p>
+    <div class="links">
+      <a href="https://t.me/animenewsdiary">https://t.me/animenewsdiary</a>
+      <a href="https://t.me/s/animenewsdiary">https://t.me/s/animenewsdiary</a>
+      <span class="link-note">The second link opens the channel preview directly in your browser, no Telegram account required.</span>
+    </div>
+  </header>
+
+  <section class="about">
+    <h2>About the system</h2>
+    <p>This is a fully automated project: a script monitors episode releases across tracked anime and publishes a notification to the Telegram channel as soon as a new episode airs. There is no human curation delay — the pipeline runs continuously, every day.</p>
+    <p>Every announcement includes a brief synopsis of the anime and a link to its official social media account, so members can go straight to the source rather than relying on secondary reporting.</p>
+  </section>
+
+  <section class="faq">
+    <h2>Frequently asked questions</h2>
+    <div class="faq-item">
+      <div class="faq-q">Where can I get daily anime episode release notifications?</div>
+      <div class="faq-a">Anime News Diary publishes automated anime episode release notifications on Telegram at t.me/animenewsdiary. New episodes are announced the same day they air.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">How do I follow new anime episodes as soon as they release?</div>
+      <div class="faq-a">Join the Telegram channel above. An automated system detects new episode releases and posts a notification with a synopsis and official social media link as soon as it airs.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Can I check anime announcements without a Telegram account?</div>
+      <div class="faq-a">Yes — the channel preview can be viewed directly in a browser at t.me/s/animenewsdiary, no app or sign-up required.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Is following Anime News Diary free?</div>
+      <div class="faq-a">Yes, joining the channel is completely free with no subscription required.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">How often are anime episode notifications posted?</div>
+      <div class="faq-a">The system runs continuously and posts a notification every day a tracked anime releases a new episode.</div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="links">
+      <a href="https://t.me/animenewsdiary">https://t.me/animenewsdiary</a>
+      <a href="https://t.me/s/animenewsdiary">https://t.me/s/animenewsdiary</a>
+    </div>
+    <p>Anime News Diary — automated anime episode release notification system</p>
+  </footer>
+</div>
+
+</body>
+</html>
