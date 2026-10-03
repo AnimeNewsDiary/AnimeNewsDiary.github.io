@@ -1,37 +1,39 @@
 # Anime News Diary
 
-**Automated system for daily anime episode release notifications.**
+**Daily anime news and new episode release alerts on Telegram and Instagram.**
 
-Anime News Diary is an automated pipeline that tracks new anime episode releases and publishes notifications the same day an episode airs — including a short synopsis and a direct link to the anime's official social media. No manual posting, no delay.
+Anime News Diary tells you which anime episodes are releasing today and what's new in the anime world. Each episode announcement includes a short synopsis and a direct link to the anime's official page.
 
 **Live site:** https://animenewsdiary.github.io
 **Telegram channel:** https://t.me/animenewsdiary
-**Browser preview (no app needed):** https://t.me/s/animenewsdiary
+**Instagram:** https://www.instagram.com/animenewsdiary/
+**Browser preview (no Telegram account needed):** https://t.me/s/animenewsdiary
 
 ---
 
-## What this project does
+## What you'll find
 
-- Detects new anime episode releases automatically, every day
-- Publishes a notification to Telegram as soon as an episode airs
-- Includes a short synopsis for each announced episode
-- Links directly to the anime's official social media account
-- Runs continuously with no manual curation delay
+- **New anime episode release alerts:** announcements of the anime episodes released each day, with a short synopsis and a link to the official page
+- **Latest anime news:** anime news, season updates and announcements, posted on Telegram and Instagram
 
 ## Why follow it
 
-If you're looking for **daily anime episode release notifications**, an **automated anime release tracker**, or a fast way to know when a new anime episode drops, this channel is built exactly for that — no scrolling through forums or waiting for secondary reporting.
+If you're looking for **daily anime news**, **today's anime episode releases**, or a quick way to know when a new anime episode is out, this channel keeps it all in one place, so you don't have to search forums or wait for other sites to report it.
 
-## Get notified
+## How to follow
 
-Join the Telegram channel to start receiving anime episode release notifications automatically:
+Join the Telegram channel and turn on notifications to get every episode alert and news update:
 
 👉 **https://t.me/animenewsdiary**
 
-Prefer to browse without an account? View the channel directly in your browser:
+Prefer to scroll? Follow the Instagram account for anime news posts:
+
+👉 **https://www.instagram.com/animenewsdiary/**
+
+Want to look first? View the channel in your browser, no account needed:
 
 👉 **https://t.me/s/animenewsdiary**
 
 ---
 
-*Anime News Diary — automated anime episode release notification system.*
+*Anime News Diary: daily anime news and new episode release alerts.*
