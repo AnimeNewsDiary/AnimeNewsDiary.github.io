@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://animenewsdiary.github.io/sitemap.xml
